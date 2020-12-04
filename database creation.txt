@@ -1,0 +1,20 @@
+Setup a local database, create a table, insert some records using any database client 
+
+->create database if not exists Employee;
+
+->use Employee;
+
+-> create table employee(id int UNIQUE,
+     Emp_id varchar(20) Primary Key,
+     Name varchar(20) NOT NULL,
+     emailid varchar(20),
+     Gender enum('male','female'),
+     Phone_Number varchar(10)
+    );
+
+
+->    insert into employee values(1,'Emp01','Ajith','ajith07@gmail.com','8867542301');
+insert into employee values('2','Emp02','Aravind','aravind001@gmail.com','9908653241');
+
+insert into employee values('3','Emp03','Bhavya','bhavya87@gmail.com','8971345200');
+insert into employee values('4','Emp04','Ramya','ramya87@gmail.com','7760886534');
