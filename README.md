@@ -9,4 +9,5 @@ Write SQL to insert and retrieve records from the above table using the same dat
   
  Write java code to insert and retrieve the records from the database table & Create a REST API in JAVA to insert and retrieve the same records
   - Please refer demo.zip for insert and retrieve records from database table using Java,MySql,Spring Boot and Postman
-  -Please refer to steps.txt to know all steps 
+
+Please refer to steps.txt to know all steps 
